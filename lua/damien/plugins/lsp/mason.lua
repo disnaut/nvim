@@ -22,12 +22,12 @@ return {
 
         lspconfig.setup({
             ensure_installed = {
-                'angularls',
-                'cssls',
-                'cssmodules_ls',
                 'jsonls',
                 'lua_ls',
-                'pyright'
+                'htmx',
+                'gopls',
+                'tsserver',
+                'powershell_es'
             },
 
             automatic_installation = true,
@@ -37,6 +37,7 @@ return {
             ensure_installed = {
                 'prettier',
                 'stylua',
+                'htmlhint'
             }
         })
     end,
