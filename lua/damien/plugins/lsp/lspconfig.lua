@@ -86,27 +86,11 @@ return {
             },
         })
 
-        lspconfig['omnisharp'].setup({
-            capabilities = capabilities,
-            on_attach = on_attach
-        })
-
         lspconfig['tsserver'].setup({
             capabilities = capabilities,
             on_attach = on_attach,
             filetypes = { 'ts', 'typescript', 'html' }
         })
-
-        lspconfig['cssls'].setup({
-            capabilities = capabilities,
-            on_attach = on_attach
-        })
-
-        lspconfig['cssmodules_ls'].setup({
-            capabilities = capabilities,
-            on_attach = on_attach
-        })
-
         lspconfig['sqlls'].setup({
             capabilities = capabilities,
             on_attach = on_attach
@@ -117,7 +101,12 @@ return {
             on_attach = on_attach
         })
 
-        lspconfig['pyright'].setup({
+        lspconfig['gopls'].setup({
+            capabilities = capabilities,
+            on_attach = on_attach
+        })
+
+        lspconfig['powershell_es'].setup({
             capabilities = capabilities,
             on_attach = on_attach
         })

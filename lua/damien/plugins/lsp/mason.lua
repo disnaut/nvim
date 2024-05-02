@@ -27,7 +27,9 @@ return {
                 'htmx',
                 'gopls',
                 'tsserver',
-                'powershell_es'
+                'powershell_es',
+                'sqlls',
+                'angularls',
             },
 
             automatic_installation = true,
