@@ -1,0 +1,20 @@
+{
+    "languageserver": {
+        "lua": {
+            "command": "lua-lsp",
+            "filetypes": ["lua"]
+        },
+        "angular": {
+            "command": "ngserver",
+            "args": [
+                "--stdio",
+                "--tsProbeLocations",
+                "~/AppData/Roaming/npm/node_modules/typescript/lib",
+                "--ngProbeLocations",
+                "~/AppData/Roaming/npm/node_modules/@angular/language-server/bin"
+            ],
+            "filetypes": ["ts", "typescript", "html"],
+            "trace.server.verbosity": "verbose"
+        }
+    } 
+}
