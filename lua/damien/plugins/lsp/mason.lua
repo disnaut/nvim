@@ -24,12 +24,11 @@ return {
             ensure_installed = {
                 'jsonls',
                 'lua_ls',
-                'htmx',
-                'gopls',
                 'tsserver',
                 'powershell_es',
                 'sqlls',
                 'angularls',
+                'dockerls',
             },
 
             automatic_installation = true,
